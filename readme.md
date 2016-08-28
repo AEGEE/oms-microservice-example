@@ -14,7 +14,7 @@ This module is made as proof of concept of how a microservice will work with the
 3. Copy / Rename .env.example file as .env
 4. Edit the desired parameters in the .env file
 5. In command line in the repository root directory, run the commands
-⋅⋅1. "composer install"
-⋅⋅2. "php artisan migrate"
+** "composer install"
+** "php artisan migrate"
 6. Point your browser to the url: <microservice_url>/register
 7. The microservice should be visible as "disabled" in the core > modules page
