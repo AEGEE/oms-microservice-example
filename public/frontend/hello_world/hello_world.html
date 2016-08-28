@@ -1,0 +1,29 @@
+<div>
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a ui-sref="app.dashboard">Dashboard</a></li>
+        <li class="active">Hello world</li>
+    </ol>
+    <!-- end breadcrumb -->
+
+    <!-- begin page-header -->
+    <h1 class="page-header">Hello world</h1>
+    <!-- end page-header -->
+
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Hello {{vm.user.first_name}} {{vm.user.last_name}}!</h3>
+            <div class="alert alert-success">
+                This page demonstrates the way a module communicates with the core module!
+            </div>
+            <div class="p-b-10">
+                <button class="btn btn-success btn-lg" ng-click="vm.getUserData()">Refresh user data!</button>
+            </div>
+            <div class="well">
+                <p>Your contact email is: {{vm.user.contact_email}}</p>
+                <p>Your internal email is: {{vm.user.internal_email}}</p>
+                <p>Your date of birth is: {{vm.user.date_of_birth}}</p>
+            </div>
+		</div>
+	</div>
+</div>
