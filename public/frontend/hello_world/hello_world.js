@@ -1,7 +1,6 @@
 (function ()
 {
     'use strict';
-    // var baseUrl = "http://poc.oms.dev/";
     var baseUrl = baseUrlRepository['module_poc'];
 
 
@@ -17,7 +16,7 @@
          $stateProvider
             .state('app.hello_world', {
                 url: '/hello_world',
-                data: {'pageTitle': 'Roles'},
+                data: {'pageTitle': 'Hello world'},
                 views   : {
                     'pageContent@app': {
                         templateUrl: baseUrl+'frontend/hello_world/hello_world.html',
